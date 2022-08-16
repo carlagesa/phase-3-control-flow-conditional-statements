@@ -47,6 +47,8 @@ def calculator(operation, num1, num2)
     num1 / num2
   when "*"
     num1 * num2
+  when "."
+    num1 . num2
   else
     puts "Invalid operation!"
   end
